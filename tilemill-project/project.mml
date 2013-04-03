@@ -1,0 +1,73 @@
+{
+  "bounds": [
+    -2.8262,
+    53.2513,
+    -1.8237,
+    53.7528
+  ],
+  "center": [
+    -2.2522,
+    53.475,
+    8
+  ],
+  "format": "png",
+  "interactivity": false,
+  "minzoom": 8,
+  "maxzoom": 15,
+  "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+  "Stylesheet": [
+    "label.mss",
+    "test.mss"
+  ],
+  "Layer": [
+    {
+      "geometry": "linestring",
+      "extent": [
+        -2.71283,
+        53.33843,
+        -1.9993499999999997,
+        53.66028
+      ],
+      "id": "routes",
+      "class": "routes",
+      "Datasource": {
+        "file": "/home/bjwebb/code/bus/out.json",
+        "id": "routes",
+        "project": "bus",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "routes",
+      "status": "off"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        -2.868737,
+        53.254995,
+        -1.83947,
+        53.745854
+      ],
+      "id": "routes2",
+      "class": "routes",
+      "Datasource": {
+        "file": "/home/bjwebb/code/bus/collapsed2.json",
+        "id": "routes2",
+        "project": "bus",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "routes2"
+    }
+  ],
+  "scale": 1,
+  "metatile": 2,
+  "_basemap": "bjwebb.map-gqq4n83h",
+  "name": "Bus Routes Manchester",
+  "description": "",
+  "attribution": ""
+}
